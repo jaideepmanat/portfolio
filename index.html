@@ -3,183 +3,770 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaideep M | Portfolio</title>
+    <title>Jaideep M - Computer Science Portfolio | Front-End Developer & ML Enthusiast</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Jaideep M - Computer Science student at Amrita Vishwa Vidyapeetham specializing in front-end development, machine learning, and web technologies. View my projects and skills.">
+    <meta name="keywords" content="Jaideep M, Computer Science, Front-end Developer, Machine Learning, Python, Java, JavaScript, Web Development, Portfolio, Amrita Vishwa Vidyapeetham">
+    <meta name="author" content="Jaideep M">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jaideepmanat.github.io">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Jaideep M - Computer Science Portfolio">
+    <meta property="og:description" content="Computer Science student specializing in front-end development and machine learning. Explore my projects and technical skills.">
+    <meta property="og:image" content="https://jaideepmanat.github.io/Photo.jpg">
+    <meta property="og:url" content="https://jaideepmanat.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jaideep M Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jaideep M - Computer Science Portfolio">
+    <meta name="twitter:description" content="Computer Science student specializing in front-end development and machine learning.">
+    <meta name="twitter:image" content="https://jaideepmanat.github.io/Photo.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" as="style">
+    <link rel="preload" href="Photo.jpg" as="image">
+    
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jaideep M",
+        "jobTitle": "Computer Science Student",
+        "description": "Computer Science student specializing in front-end development and machine learning",
+        "url": "https://jaideepmanat.github.io",
+        "image": "https://jaideepmanat.github.io/Photo.jpg",
+        "email": "manatjaideep@gmail.com",
+        "telephone": "+91-9946913393",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kozhikode",
+            "addressRegion": "Kerala",
+            "addressCountry": "India"
+        },
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "Amrita Vishwa Vidyapeetham"
+        },
+        "knowsAbout": ["JavaScript", "Python", "Java", "Machine Learning", "Web Development", "HTML", "CSS", "PHP", "MySQL"],
+        "sameAs": [
+            "https://github.com/jaideepmanat",
+            "https://linkedin.com/in/jaideep-m-7539a6282/"
+        ]
+    }
+    </script>
 </head>
 <body>
-    <div class="container">
-        <aside class="profile-section">
-            <div class="profile-info">
-                <div class="profile-pic">
-                    <img src="Photo.jpg" alt="Profile Picture">
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Jaideep</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#education" class="nav-link" data-section="education">Education</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-intro">
+                    <span class="greeting">Hello there! I'm</span>
                 </div>
-                <h1>Jaideep M</h1>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/jaideep-m-7539a6282/" target="_blank">
+                <h1 class="hero-name">
+                    <span class="name-text">Jaideep M</span>
+                </h1>
+                <div class="hero-role">
+                    <span class="role-text">I'm a </span>
+                    <span class="typed-text"></span>
+                    <span class="cursor-blink">|</span>
+                </div>
+                <p class="hero-description">
+                    Motivated Computer Science student with a passion for problem-solving and front-end development. 
+                    Proficient in Java and C with an eagerness to learn and grow. Known for collaboration and 
+                    adaptability within team environments.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="Resume.pdf" class="btn btn-secondary" download>
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/jaideepmanat" class="social-link" data-tooltip="GitHub" aria-label="Visit Jaideep's GitHub profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/jaideep-m-7539a6282/" class="social-link" data-tooltip="LinkedIn" aria-label="Visit Jaideep's LinkedIn profile">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/jaideepmanat" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a href="mailto:manatjaideep@gmail.com" class="social-link" data-tooltip="Email" aria-label="Send email to Jaideep">
+                        <i class="fas fa-envelope"></i>
                     </a>
                 </div>
             </div>
-        </aside>
-
-        <main class="content-section">
-            <section id="profile">
-                <h2>Profile</h2>
-                <div class="card">
-                    <p>Motivated Computer Science student with a knack for problem-solving and a focus on front-end development. Proficient in Java and C with an eagerness to learn and grow. Known for collaboration and adaptability within team environments. Seeking opportunities to apply academic knowledge and skills to contribute to dynamic front-end projects.</p>
-                </div>
-            </section>
-            
-            
-            <section id="education">
-                <h2>Education</h2>
-                <div class="card">
-                    <h3>B.Tech in Computer Science</h3>
-                    <p>Amrita Vishwa Vidyapeetham (2021 - Present)</p>
-                    <p>CGPA: 6.57</p>
-                </div>
-                <div class="card">
-                    <h3>Higher Secondary Education</h3>
-                    <p>Nochad Higher Secondary School (2019 - 2021)</p>
-                    <p>Percentage: 84%</p>
-                </div>
-                <div class="card">
-                    <h3>10th Grade</h3>
-                    <p>GVHSS Meppayur (2018 - 2019)</p>
-                    <p>Percentage: 95%</p>
-                </div>
-            </section>
-
-            <section id="projects">
-                <h2>Projects</h2>
-                <div class="card">
-                    <h3>Password Management Website</h3>
-                    <p>Jun 23 - Jul 23 | Software Engineering</p>
-                    <p>Using HTML, CSS, and JavaScript, the project's frontend framework was expertly created in response to the requirement for secure password storage. Creating a user-friendly interface with strong encryption for password protection was part of this. With a focus on the front end, working with back end developers allowed for the smooth integration of a complete solution, improving online safety.</p>
-                </div>
-                <div class="card">
-                    <h3>AI-Driven Career Guidance</h3>
-                    <p>Nov 23 - Jan 24 | Machine Learning</p>
-                    <p>Our team tackled the task of career prediction using machine learning, employing XGBoost, SVM, and decision tree classifier models on three separate datasets. Through our collaborative efforts, we achieved a remarkable accuracy rate of 93%, showcasing our proficiency in leveraging diverse algorithms for predictive analysis in career forecasting.</p>
-                </div>
-                <div class="card">
-                    <h3>Career Prediction Website</h3>
-                    <p>Mar 24 - Jun 24 | Machine Learning</p>
-                    <p>Our group created a website for placement prediction that uses logistic regression to predict a student's placement. Users of the platform can register, complete the forms, and get a straightforward yes/no forecast. This initiative uses machine learning to improve decision-making for students' career planning by streamlining placement projections.</p>
-                </div>
-                <div class="card">
-                    <h3>Music Recording Company Management Application</h3>
-                    <p>Oct 22 - Feb 23 | Object Oriented Programming</p>
-                    <p>Our team created a cooperative, simplified relational database schema to solve the problem of arranging musician biographies, album details, and song data in a Music Recording Company Management Application. Data accuracy was greatly increased by enforcing constraints to avoid duplicate songs, which ensured efficient consistency in information management across the application.</p>
-                </div>
-            </section>
-            
-
-            <section id="skills">
-                <h2>Skills</h2>
-                <div class="card skills-card">
-                    <div class="skill">
-                        <i class="fab fa-java"></i>
-                        <p>Java</p>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-python"></i>
-                        <p>Python</p>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-html5"></i>
-                        <p>HTML</p>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-css3-alt"></i>
-                        <p>CSS</p>
-                    </div>
-                    <div class="skill">
-                        <i class="fab fa-js"></i>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="skill">
-                        <i class="fas fa-c"></i> <!-- You can change the icon as needed -->
-                        <p>C</p>
-                    </div>
-                </div>
-                <section id="software-proficiency">
-                    <h2>Software Proficiency</h2>
-                    <div class="card software-card">
-                        <div class="software">
-                            <img src="photoshop.png" alt="Photoshop" width="40" class="icon"> <!-- Use SVG -->
-                            <p>Photoshop</p>
-                        </div>
-                        <div class="software">
-                            <img src="premiere-pro.png" alt="Premiere Pro" width="40" class="icon"> <!-- Use SVG -->
-                            <p>Premiere Pro</p>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="Photo.jpg" alt="Jaideep M" class="profile-photo" loading="lazy">
+                        <div class="tech-icons">
+                            <div class="tech-icon" style="--delay: 0s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="tech-icon" style="--delay: 0.5s">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="tech-icon" style="--delay: 1s">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="tech-icon" style="--delay: 1.5s">
+                                <i class="fab fa-html5"></i>
+                            </div>
                         </div>
                     </div>
-                </section>
-                
-                <style>
-                .icon {
-                    fill: #fff; /* Change this to your desired color */
-                    filter: invert(1); /* Invert color if black */
-                }
-                </style>
-                
-            
-            
-            
-            
-            
-            <section id="community-outreach">
-                <h2>Community Outreach</h2>
-                <div class="card">
-                    <h3>2023 Cyber Security Awareness Campaign</h3>
-                    <p>SSR Project</p>
-                    <p>Part of an SSR (Student Social Responsibility) group that took a seminar on “Cybersecurity Awareness” in a random school at Kannur.</p>
                 </div>
-            </section>
-            <section id="languages-known">
-                <h2>Languages Known</h2>
-                <div class="languages-card-container">
-                    <div class="card language-card">
-                        <h3>English</h3>
-                        <p>Read, Write, Speak, Understand</p>
-                    </div>
-                    <div class="card language-card">
-                        <h3>Malayalam</h3>
-                        <p>Read, Write, Speak, Understand</p>
-                    </div>
-                    <div class="card language-card">
-                        <h3>Hindi</h3>
-                        <p>Read, Write, Understand</p>
-                    </div>
-                </div>
-            </section>
-            <br>
-            
-            
-            
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
 
-            <section id="contact">
-                <h2>Contact</h2>
-                <div class="card contact-card">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:manatjaideep@gmail.com">manatjaideep@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+91 994 691 3393</p> <!-- Replace with your actual phone number -->
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Get to know me better</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>My Journey</h3>
+                        <p>
+                            I'm a passionate Computer Science student at Amrita Vishwa Vidyapeetham, currently in my final year. 
+                            My journey in technology began with curiosity and has evolved into a deep passion for creating 
+                            meaningful digital experiences through front-end development.
+                        </p>
+                        <p>
+                            With a strong foundation in programming languages like Java, C, and Python, combined with 
+                            front-end technologies, I enjoy bringing ideas to life through code. My academic projects 
+                            have ranged from AI-driven solutions to full-stack web applications, each teaching me 
+                            valuable lessons about software development and teamwork.
+                        </p>
                     </div>
                 </div>
-            </section>
-        </main>
-    </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Programming Languages</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="app.js"></script>
+    <!-- Education Section -->
+    <section id="education" class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-subtitle">Academic journey and achievements</div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Computer Science and Engineering</h4>
+                        <div class="institution">
+                            <i class="fas fa-university"></i>
+                            Amrita Vishwa Vidyapeetham, Amritapuri, Kollam
+                        </div>
+                        <div class="grade">CGPA: 6.66/10</div>
+                        <p>
+                            Comprehensive study of computer science fundamentals including data structures, algorithms, 
+                            software engineering, machine learning, and web development. Active participation in 
+                            hackathons and technical projects.
+                        </p>
+                        <div class="subjects">
+                            <span class="subject-tag">Data Structures</span>
+                            <span class="subject-tag">Machine Learning</span>
+                            <span class="subject-tag">Web Development</span>
+                            <span class="subject-tag">Software Engineering</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education</h3>
+                        <h4>Science Stream</h4>
+                        <div class="institution">
+                            <i class="fas fa-school"></i>
+                            Nochad Higher Secondary School, Nochad, Kozhikode
+                        </div>
+                        <div class="grade">Percentage: 84%</div>
+                        <p>
+                            Focused on Physics, Chemistry, and Mathematics with strong performance in analytical 
+                            and problem-solving subjects that laid the foundation for engineering studies.
+                        </p>
+                        <div class="subjects">
+                            <span class="subject-tag">Physics</span>
+                            <span class="subject-tag">Chemistry</span>
+                            <span class="subject-tag">Mathematics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2019</div>
+                    <div class="timeline-content">
+                        <h3>Secondary School Certificate</h3>
+                        <h4>10th Grade</h4>
+                        <div class="institution">
+                            <i class="fas fa-school"></i>
+                            GVHSS Meppayur, Meppayur, Kozhikode
+                        </div>
+                        <div class="grade">Percentage: 95%</div>
+                        <p>
+                            Excellent academic performance with strong foundation in core subjects, 
+                            demonstrating early aptitude for logical thinking and problem-solving.
+                        </p>
+                        <div class="subjects">
+                            <span class="subject-tag">Mathematics</span>
+                            <span class="subject-tag">Science</span>
+                            <span class="subject-tag">Academic Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-subtitle">Showcasing my technical expertise</div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-year">2025</div>
+                        <div class="project-type">Final Year Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mindsync: Mental Health & Wellness Platform</h3>
+                        <p class="project-description">
+                            Designed and developed a comprehensive web-based platform to support student mental health 
+                            through intelligent risk prediction and emotion detection. Applied machine learning and deep 
+                            learning techniques for real-time analysis.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-brain"></i>
+                                <span>ML Risk Classification (Random Forest)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-heart"></i>
+                                <span>Emotion Detection (BERT)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-journal-whills"></i>
+                                <span>Journal-based Tracking</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>Community Support</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML/CSS/JS</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">BERT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/jaideepmanat/MindSync" class="project-link" aria-label="View MindSync project source code on GitHub">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2024</div>
+                        <div class="project-type">6th Semester</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Career Prediction Website</h3>
+                        <p class="project-description">
+                            Created a placement prediction platform using logistic regression to predict student placement outcomes. 
+                            Users can register, complete forms, and receive straightforward yes/no forecasts.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Logistic Regression</span>
+                            <span class="tech-tag">Web Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/jaideepmanat/HireVision" class="project-link" aria-label="View Career Prediction project source code on GitHub">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2024</div>
+                        <div class="project-type">5th Semester</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Driven Career Guidance</h3>
+                        <p class="project-description">
+                            Tackled career prediction using multiple machine learning models including XGBoost, SVM, 
+                            and decision tree classifiers, achieving a remarkable 93% accuracy rate.
+                        </p>
+                        <div class="project-highlight">
+                            <i class="fas fa-chart-line"></i>
+                            <span>93% Accuracy Achieved</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">SVM</span>
+                            <span class="tech-tag">Decision Trees</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2023</div>
+                        <div class="project-type">Oracle Hacks</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Password Management Website</h3>
+                        <p class="project-description">
+                            Developed a secure password storage solution with expertly crafted frontend framework. 
+                            Created user-friendly interface with strong encryption for password protection.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Encryption</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/jaideepmanat/PassBird-Password-Management-System" class="project-link" aria-label="View Password Management project source code on GitHub">
+                                <i class="fab fa-github"></i>
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2022</div>
+                        <div class="project-type">2nd Semester</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Car Selling Website UI</h3>
+                        <p class="project-description">
+                            Enhanced user interface for a car-selling website with responsive design for easy browsing 
+                            of different car models. Implemented mobile responsiveness optimizations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Responsive Design</span>
+                            <span class="tech-tag">UI/UX</span>
+                            <span class="tech-tag">Mobile First</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-subtitle">Tools and technologies I work with</div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78"></div>
+                                </div>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML5</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS3</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MySQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>PHP</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="65"></div>
+                                </div>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Creative Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <img src="photoshop.png" alt="Photoshop" class="custom-icon" loading="lazy">
+                            </div>
+                            <div class="skill-info">
+                                <h4>Photoshop</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <img src="premiere-pro.png" alt="Premiere Pro" class="custom-icon" loading="lazy">
+                            </div>
+                            <div class="skill-info">
+                                <h4>Premiere Pro</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages and Community -->
+            <div class="additional-skills">
+                <div class="languages-section">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="language-cards">
+                        <div class="language-card">
+                            <div class="language-name">English</div>
+                            <div class="language-skills">
+                                <span class="skill-badge">Read</span>
+                                <span class="skill-badge">Write</span>
+                                <span class="skill-badge">Speak</span>
+                                <span class="skill-badge">Understand</span>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="language-name">Malayalam</div>
+                            <div class="language-skills">
+                                <span class="skill-badge">Read</span>
+                                <span class="skill-badge">Write</span>
+                                <span class="skill-badge">Speak</span>
+                                <span class="skill-badge">Understand</span>
+                            </div>
+                        </div>
+                        <div class="language-card">
+                            <div class="language-name">Hindi</div>
+                            <div class="language-skills">
+                                <span class="skill-badge">Read</span>
+                                <span class="skill-badge">Write</span>
+                                <span class="skill-badge">Understand</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="community-section">
+                    <h3 class="category-title">Community Outreach</h3>
+                    <div class="community-card">
+                        <div class="community-year">2023</div>
+                        <div class="community-content">
+                            <h4>Cyber Security Awareness Campaign</h4>
+                            <div class="community-type">SSR Project</div>
+                            <p>
+                                Part of an SSR (Student Social Responsibility) group that conducted a seminar on 
+                                "Cybersecurity Awareness" at a school in Kannur, promoting digital safety and awareness.
+                            </p>
+                            <div class="community-tags">
+                                <span class="tag">Cybersecurity</span>
+                                <span class="tag">Education</span>
+                                <span class="tag">Social Responsibility</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-subtitle">Ready to start your next project?</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card-center">
+                    <h3>Get in Touch</h3>
+                    <p>
+                        I'm always interested in new opportunities, whether it's a full-time position, 
+                        freelance project, or just a chat about technology. Let's connect and explore 
+                        how we can work together!
+                    </p>
+                    <div class="contact-items-horizontal">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>manatjaideep@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 9946913393</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Kozhikode, Kerala, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">Jaideep</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p>&copy; 2025 Jaideep M. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        <a href="https://github.com/jaideepmanat" class="social-link" aria-label="Visit Jaideep's GitHub profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/jaideep-m-7539a6282/" class="social-link" aria-label="Visit Jaideep's LinkedIn profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:manatjaideep@gmail.com" class="social-link" aria-label="Send email to Jaideep">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Performance and Analytics -->
+    <script>
+        // Performance optimization - defer non-critical JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load non-critical scripts after DOM is ready
+            const script = document.createElement('script');
+            script.src = 'script.js';
+            script.defer = true;
+            document.head.appendChild(script);
+        });
+        
+        // Basic Web Vitals tracking (optional)
+        if ('performance' in window) {
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    const perfData = performance.getEntriesByType('navigation')[0];
+                    console.log('Page Load Time:', perfData.loadEventEnd - perfData.fetchStart, 'ms');
+                }, 0);
+            });
+        }
+    </script>
 </body>
 </html>
